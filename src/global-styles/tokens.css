@@ -1,0 +1,13 @@
+:root {
+  --clr-brand-primary: #e50914;
+  --clr-brand-primary-hover: #c11119;
+  --clr-bg-primary: #000;
+  --clr-bg-secondary: #2d2d2d;
+  --clr-bg-secondary-hover: #414141;
+  --clr-bg-control: rgb(22 22 22 / 70%);
+  --clr-text-primary: #fff;
+  --clr-text-secondary: rgb(255 255 255 / 70%);
+  --clr-text-links: #448ef4;
+  --clr-border-control: rgb(128 128 128 / 70%);
+  --clr-shadow: 0, 0, 0;
+}
