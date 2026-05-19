@@ -10,4 +10,5 @@
   --clr-text-links: #448ef4;
   --clr-border-control: rgb(128 128 128 / 70%);
   --clr-shadow: 0, 0, 0;
+  --z-page-body: 2;
 }
