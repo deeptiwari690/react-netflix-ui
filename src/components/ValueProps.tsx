@@ -1,5 +1,6 @@
 import { ValuePropsCard } from "./ValuePropsCard";
 import type { ValuePropsItem } from "../types";
+import "./ValueProps.css";
 
 const valuePropsItems: ValuePropsItem[] = [
   {
