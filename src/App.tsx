@@ -4,6 +4,7 @@ import { PageBody } from "./layouts/PageBody";
 import { Top10 } from "./components/Top10";
 import { ValueProps } from "./components/ValueProps";
 import { FaqAccordion } from "./components/FaqAccordion";
+import { CtaBar } from "./components/CtaBar";
 
 export function App() {
   return (
@@ -13,6 +14,9 @@ export function App() {
         <Top10 />
         <ValueProps />
         <FaqAccordion />
+        <div className="o-section o-container">
+          <CtaBar id="bottom-cta" />
+        </div>
       </PageBody>
     </Page>
   );
