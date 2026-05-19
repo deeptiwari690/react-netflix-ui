@@ -9,3 +9,9 @@ export type Top10Item = {
   poster: string;
   label: string;
 };
+
+export type FaqItem = {
+  question: string;
+  answer: string;
+  id: string;
+};

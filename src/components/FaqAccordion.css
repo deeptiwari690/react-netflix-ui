@@ -1,0 +1,40 @@
+.c-faq-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (width >= 960px) {
+  .c-faq-accordion {
+    gap: 1rem;
+  }
+}
+
+.c-faq-accordion__title {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+@media (width >= 960px) {
+  .c-faq-accordion__title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (width >= 1920px) {
+  .c-faq-accordion__title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
+
+.c-faq-accordion__list {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+@media (width >= 960px) {
+  .c-faq-accordion__list {
+    font-size: 1.5rem;
+  }
+}

@@ -7,7 +7,7 @@ type CtaBarProps = {
 
 export function CtaBar({ centered, id }: CtaBarProps) {
   return (
-    <form className={`c-cta-bar${centered ? " c-cta-bar--centered" : ""}`} aria-labelledby={`${id}-title`} data-cta-bar>
+    <form className={`c-cta-bar${centered ? " c-cta-bar--centered" : ""}`} aria-labelledby={`${id}-title`}>
       <h2 id={`${id}-title`} className="c-cta-bar__title">
         Ready to watch? Enter your email to create or restart your membership.
       </h2>
