@@ -75,7 +75,7 @@ export function Top10() {
           disabled={isBeginning}
         >
           <svg className="c-top-10__control-icon" aria-hidden="true" width={24} height={24}>
-            <use href="/icons.svg#icon-chevron-left" />
+            <use href="./icons.svg#icon-chevron-left" />
           </svg>
         </button>
         <Swiper
@@ -105,7 +105,7 @@ export function Top10() {
           disabled={isEnd}
         >
           <svg className="c-top-10__control-icon" aria-hidden="true" width={24} height={24}>
-            <use href="/icons.svg#icon-chevron-right" />
+            <use href="./icons.svg#icon-chevron-right" />
           </svg>
         </button>
       </div>

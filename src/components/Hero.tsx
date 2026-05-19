@@ -12,7 +12,7 @@ export function Hero() {
       <Header />
       <div className="c-hero__outer">
         <div className="c-hero__backdrop">
-          <img src="/images/img-hero.jpg" className="c-hero__image" alt="" />
+          <img src="./images/img-hero.jpg" className="c-hero__image" alt="" />
           <div className="c-hero__overlay" />
         </div>
         <div className="c-hero__inner">

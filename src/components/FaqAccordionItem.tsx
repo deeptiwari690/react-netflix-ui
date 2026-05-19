@@ -21,7 +21,7 @@ export function FaqAccordionItem({ question, answer, id }: FaqItemProps) {
         >
           {question}
           <svg className="c-faq-accordion__icon" width={36} height={36} aria-hidden="true">
-            <use href="/icons.svg#icon-plus" />
+            <use href="./icons.svg#icon-plus" />
           </svg>
         </button>
       </h3>

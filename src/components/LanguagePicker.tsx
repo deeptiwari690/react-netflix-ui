@@ -11,7 +11,7 @@ export function LanguagePicker({ id }: LanguagePickerProps) {
         Select Language
       </label>
       <svg className="c-language-picker__language-icon" aria-hidden="true" width={16} height={16}>
-        <use href="/icons.svg#icon-language-select" />
+        <use href="./icons.svg#icon-language-select" />
       </svg>
       <select className="c-language-picker__select" id={id} name="language_selected" defaultValue="en-IN">
         <option lang="en" label="English" value="en-IN">
@@ -22,7 +22,7 @@ export function LanguagePicker({ id }: LanguagePickerProps) {
         </option>
       </select>
       <svg className="c-language-picker__caret-icon" aria-hidden="true" width={16} height={16}>
-        <use href="/icons.svg#icon-caret-down" />
+        <use href="./icons.svg#icon-caret-down" />
       </svg>
     </div>
   );

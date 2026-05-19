@@ -31,7 +31,7 @@ export function CtaBar({ centered, id }: CtaBarProps) {
         <button className="c-cta-bar__btn c-btn c-btn--lg" type="submit">
           Get Started
           <svg className="c-btn__icon" aria-hidden="true" width={24} height={24}>
-            <use href="/icons.svg#icon-chevron-right" />
+            <use href="./icons.svg#icon-chevron-right" />
           </svg>
         </button>
       </div>
