@@ -5,6 +5,7 @@ import { Top10 } from "./components/Top10";
 import { ValueProps } from "./components/ValueProps";
 import { FaqAccordion } from "./components/FaqAccordion";
 import { CtaBar } from "./components/CtaBar";
+import { Footer } from "./components/Footer";
 
 export function App() {
   return (
@@ -17,6 +18,7 @@ export function App() {
         <div className="o-section o-container">
           <CtaBar id="bottom-cta" />
         </div>
+        <Footer />
       </PageBody>
     </Page>
   );

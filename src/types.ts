@@ -15,3 +15,8 @@ export type FaqItem = {
   answer: string;
   id: string;
 };
+
+export type FooterLink = {
+  href: string;
+  label: string;
+};
