@@ -4,4 +4,8 @@ export type ValuePropsItem = {
   icon: string;
 };
 
-
+export type Top10Item = {
+  rank: number;
+  poster: string;
+  label: string;
+};
