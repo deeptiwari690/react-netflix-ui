@@ -1,6 +1,6 @@
 # Netflix UI — React + TypeScript Rebuild
 
-[View live →](https://peppy-cassata-dbd163.netlify.app)
+[View live →](https://deeptiwari690.github.io/react-netflix-ui/)
 
 A pixel-faithful rebuild of the Netflix India landing page — originally built with vanilla HTML, CSS, and JavaScript, now rebuilt with React and TypeScript.
 
