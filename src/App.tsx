@@ -6,6 +6,7 @@ import { ValueProps } from "./components/ValueProps";
 import { FaqAccordion } from "./components/FaqAccordion";
 import { CtaBar } from "./components/CtaBar";
 import { Footer } from "./components/Footer";
+import { FloatingCta } from "./components/FloatingCta";
 
 export function App() {
   return (
@@ -20,6 +21,7 @@ export function App() {
         </div>
         <Footer />
       </PageBody>
+      <FloatingCta />
     </Page>
   );
 }

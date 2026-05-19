@@ -1,0 +1,68 @@
+.c-floating-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--z-floating-cta);
+  padding: 1.5rem;
+  opacity: 0;
+  transform: translateY(100%);
+  pointer-events: none;
+  transition:
+    opacity 0.3s ease-in,
+    transform 0.3s ease-in;
+}
+
+.c-floating-cta::after {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 200%;
+  background: linear-gradient(
+    rgb(0 0 0 / 0%) 0%,
+    rgb(0 0 0 / 1.6%) 8.333%,
+    rgb(0 0 0 / 5.5%) 16.67%,
+    rgb(0 0 0 / 12.5%) 25%,
+    rgb(0 0 0 / 22.4%) 33.33%,
+    rgb(0 0 0 / 35%) 41.67%,
+    rgb(0 0 0 / 50%) 50%,
+    rgb(0 0 0 / 65%) 58.33%,
+    rgb(0 0 0 / 77.6%) 66.67%,
+    rgb(0 0 0 / 87.5%) 75%,
+    rgb(0 0 0 / 94.5%) 83.33%,
+    rgb(0 0 0 / 98.4%) 91.67%,
+    rgb(0 0 0) 100%
+  );
+}
+
+.c-floating-cta--visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  transition:
+    opacity 0.3s ease-out,
+    transform 0.3s ease-out;
+}
+
+@media (width >= 600px) {
+  .c-floating-cta--visible {
+    opacity: 0;
+    transform: translateY(100%);
+    pointer-events: none;
+  }
+}
+
+.c-floating-cta__btn {
+  min-height: 2.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .c-floating-cta,
+  .c-floating-cta--visible {
+    transition: none;
+  }
+}
