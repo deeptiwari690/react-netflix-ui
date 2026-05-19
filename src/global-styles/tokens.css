@@ -11,4 +11,17 @@
   --clr-border-control: rgb(128 128 128 / 70%);
   --clr-shadow: 0, 0, 0;
   --z-page-body: 2;
+  --z-floating-cta: 3;
+  --z-hero: 1;
+  --z-hero-lighting: 1;
+  --z-hero-spotlight: 1;
+  --z-hero-edge-light: 2;
+  --z-hero-header: 3;
+  --z-hero-outer: 2;
+  --z-hero-backdrop: 1;
+  --z-hero-image: 1;
+  --z-hero-overlay: 2;
+  --z-hero-inner: 2;
+  --z-hero-core: 2;
+  --z-hero-arch: 1;
 }
