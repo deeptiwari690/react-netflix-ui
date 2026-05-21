@@ -14,7 +14,7 @@ export function ValuePropsCard({ title, description, icon }: ValuePropsCardProps
         <p className="c-value-props__card-description">{description}</p>
       </div>
       <svg className="c-value-props__icon" width={72} height={72} aria-hidden="true">
-        <use href={`/icons.svg#${icon}`} />
+        <use href={`./icons.svg#${icon}`} />
       </svg>
     </div>
   );
