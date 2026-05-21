@@ -1,9 +1,8 @@
 import { useRef, useState } from "react";
-import type { SwiperRef } from "swiper/react";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide, type SwiperRef } from "swiper/react";
+import "swiper/css";
 import { Top10Card } from "./Top10Card";
 import type { Top10Item } from "../types";
-import "swiper/css";
 import "./Top10.css";
 
 const top10Items: Top10Item[] = [
@@ -72,7 +71,7 @@ export function Top10() {
         <button
           className="c-top-10__control c-top-10__control--prev"
           onClick={() => swiperRef.current?.swiper.slidePrev()}
-          disabled={isBeginning}
+          disabled = {isBeginning}
         >
           <svg className="c-top-10__control-icon" aria-hidden="true" width={24} height={24}>
             <use href="./icons.svg#icon-chevron-left" />
@@ -81,13 +80,9 @@ export function Top10() {
         <Swiper
           ref={swiperRef}
           slidesPerView="auto"
+          grabCursor
           slidesPerGroupAuto
           speed={500}
-          grabCursor
-          onSwiper={(swiper) => {
-            setIsBeginning(swiper.isBeginning);
-            setIsEnd(swiper.isEnd);
-          }}
           onSlideChange={(swiper) => {
             setIsBeginning(swiper.isBeginning);
             setIsEnd(swiper.isEnd);
