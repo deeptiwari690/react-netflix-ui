@@ -71,7 +71,7 @@ export function Top10() {
         <button
           className="c-top-10__control c-top-10__control--prev"
           onClick={() => swiperRef.current?.swiper.slidePrev()}
-          disabled = {isBeginning}
+          disabled={isBeginning}
         >
           <svg className="c-top-10__control-icon" aria-hidden="true" width={24} height={24}>
             <use href="./icons.svg#icon-chevron-left" />
