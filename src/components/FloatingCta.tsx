@@ -6,18 +6,15 @@ export function FloatingCta() {
 
   useEffect(() => {
     const triggers = document.querySelectorAll("[data-cta-bar]");
-    if (!triggers.length) return;
-
     const observer = new IntersectionObserver(
       (entries) => {
         const anyVisible = entries.some((entry) => entry.isIntersecting);
         setIsVisible(!anyVisible);
       },
-      { rootMargin: "65px 0px 0px 0px" },
+      { rootMargin: "65px 0 0 0" },
     );
 
     triggers.forEach((trigger) => observer.observe(trigger));
-
     return () => observer.disconnect();
   }, []);
 
