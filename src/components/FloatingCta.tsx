@@ -11,7 +11,7 @@ export function FloatingCta() {
         const anyVisible = entries.some((entry) => entry.isIntersecting);
         setIsVisible(!anyVisible);
       },
-      { rootMargin: "65px 0 0 0" },
+      { rootMargin: "65px 0px 0px 0px" },
     );
 
     triggers.forEach((trigger) => observer.observe(trigger));
